@@ -28,7 +28,7 @@
             List<Cidade> cidades = new ArrayList<>();
             
             System.out.println("Digite a lista das cidades.");
-            // Loop para ler a entrada das cidades e seus intervalos de CEP
+
             while (true) {
                 String linha = scanner.nextLine();
                 if (linha.equals("--")) {
@@ -52,7 +52,7 @@
             for (Cidade cidade : cidades) {
                 if (cidade.contemCep(cepConsulta)) {
                     System.out.println(cidade.nome); // Imprime o nome da cidade correspondente
-                    return; // Termina o programa
+                    return; 
                 }
             }
     
