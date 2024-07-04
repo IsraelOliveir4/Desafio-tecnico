@@ -1,8 +1,14 @@
-## Desafio Tecnico
+# Desafio Tecnico
+
+* Linguagem: JAVA
+* IDE Utilizada: IntelliJ
+* Algoritmo utilizado para concluir 2º desafio: Dijkstra
+
+## Objetivo
 
 Usando a sua linguagem de programação preferida solucione os seguintes desafios:
 
-** Parte 1
+Parte 1 -
 Crie um programa que, dado uma lista de cidades e as faixas de CEP que as compõe,
 responde a qual cidade um CEP pertence.
 
@@ -11,18 +17,19 @@ um CEP final separados por vírgula, então uma linha com dois traços "--" e po
 um CEP. O seu programa então deve responder o nome da cidade ao qual esse CEP pertence.
 
 Entrada de exemplo:
-
+```
 A,10000000,20000000
 B,30000000,40000000
 C,50000000,60000000
 D,70000000,80000000
 --
 11111111
-
-Saída experada do exmeplo:
+```
+Saída esperada do exemplo:
+```
 A
-
-** Parte 2
+```
+Parte 2 -
 Crie um programa que recebe uma lista de nomes de cidades
 adjacentes e o custo de transporte entre elas, então deve calcular o
 menor custo entre duas cidades não adjacentes.
@@ -38,6 +45,7 @@ uma mercadoria entre o primeiro e o segundo CEP dá ultima linha da entrada, e
 o custo total desta rota.
 
 Entrada de exemplo:
+```
 A,10000000,20000000
 B,30000000,40000000
 C,50000000,60000000
@@ -49,7 +57,9 @@ B,D,5
 C,D,7
 --
 11111111,71111111
-
-Saida experada do exemplo:
+```
+Saida esperada do exemplo:
+```
 A,B,D
 15
+```
