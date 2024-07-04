@@ -2,7 +2,7 @@
 
 * Linguagem: JAVA
 * IDE Utilizada: IntelliJ
-* Algoritmo utilizado para concluir 2º desafio: Dijkstra
+* Algoritmo utilizado para concluir 2º parte do desafio: Dijkstra
 
 ## Objetivo
 
